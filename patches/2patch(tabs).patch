@@ -1,0 +1,13 @@
+diff --git a/calculator.cpp b/calculator.cpp
+index d10f529..f323e14 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -2,7 +2,7 @@
+ 
+ int Calculator::Add (double a, double b)
+ {
+-	return a + b + 0.5;
++	return a + b;
+ }
+ 
+ int Calculator::Sub (double a, double b)
