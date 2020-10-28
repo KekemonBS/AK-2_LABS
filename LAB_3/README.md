@@ -11,4 +11,4 @@ LAB_3
 #### Run:
 ---
 ./main --list --version -v -lh\
-./main -d=100
+./main -d100
