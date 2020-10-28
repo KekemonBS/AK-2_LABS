@@ -1,4 +1,4 @@
-##LAB_3
+LAB_3
 ---
 #### List of keys:
 ---
