@@ -1,4 +1,4 @@
-##LAB_3
+LAB_3
 ---
 #### List of keys:
 ---
@@ -11,4 +11,4 @@
 #### Run:
 ---
 ./main --list --version -v -lh\
-./main -d=100
+./main -d100
