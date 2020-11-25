@@ -1,10 +1,6 @@
 #include <linux/init.h>
 #include <linux/module.h>
-
-#include <linux/moduleparam.h>
 #include <linux/printk.h>
-
-#include <linux/types.h>
 
 MODULE_AUTHOR("Buhtiy Oleksandr <sasha007.h@gmail.com>");
 MODULE_DESCRIPTION("Hello, world in Linux Kernel Training");
@@ -12,7 +8,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 
 
 static uint repeats = 1;
-module_param(repeats, uint, 0);
+module_param(repeats, uint, 0600);
 
 MODULE_PARM_DESC(repeats, "Repeat printing n times");
 
